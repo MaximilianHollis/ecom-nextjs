@@ -4,4 +4,4 @@ node_modules
 dist
 next.config.*
 now.json
-process.env
+.env.local

@@ -50,10 +50,10 @@ function CreateProduct() {
   const handleImageUpload = async () => {
     const data = new FormData();
     data.append('file', media);
-    data.append('upload_preset', 'bilibonshop');
-    data.append('cloud_name', 'kazhala');
+    data.append('upload_preset', 'fcrwgw8n');
+    data.append('cloud_name', 'abcds');
     const response = await axios.post(
-      'https://api.cloudinary.com/v1_1/kazhala/image/upload',
+      'https://api.cloudinary.com/v1_1/abcds/image/upload',
       data
     );
     const mediaUrl = response.data.url;
